@@ -56,9 +56,10 @@ const activeIndex = ref(null);
 
 <style scoped>
 .main-content-wrapper {
-	background-color: #ffffff;
+	background-color: hsl(33, 100%, 98%);
 	min-height: 400px;
 	padding: 20px;
+	border-radius: 10px;
 }
 
 .content-header {
@@ -73,9 +74,7 @@ const activeIndex = ref(null);
 	height: 100%;
 	width: 100%;
 	justify-content: space-between;
-	/* gap: 15px; */
-	margin-top: 50px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 .chart-content {
@@ -88,7 +87,6 @@ const activeIndex = ref(null);
 
 .chart-bar {
 	height: 90%;
-	/* margin: 0 auto; */
 	width: 80%;
 	margin: 0 auto;
 	background-color: hsl(10, 79%, 65%);

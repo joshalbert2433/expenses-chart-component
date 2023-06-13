@@ -17,7 +17,7 @@ import MainContent from "./components/MainContent.vue";
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	max-width: 700px;
+	max-width: 550px;
 	margin: 0 auto;
 	margin-top: 50px;
 }
